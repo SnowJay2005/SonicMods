@@ -1,5 +1,4 @@
-add Shitstain/raw/character/shadow.pac
-add Pipebomb/raw/character/shadow.pac
-add mod.ini
+add changelog.md
 add mod_files.txt
 add mod_verion.ini
+add mod.ini
