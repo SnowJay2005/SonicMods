@@ -1,7 +1,6 @@
 ## Shitstain and Pipebomb v2.2.0
 - Fixed aura model's normals
 
-
 ## Shitstain and Pipebomb v2.1.0
 - Fixed aura material
 
