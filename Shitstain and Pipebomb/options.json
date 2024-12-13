@@ -1,150 +1,184 @@
 {
-  "Groups": [
-    {
-      "Name": "Main",
-      "DisplayName": "Options",
-      "Elements": [
+    "Groups": [
         {
-          "Name": "IncludeDir1",
-          "DisplayName": "Character",
-		  "Description": [
-			"Choose the Character you would like."
-		  ],
-          "Type": "buttnum",
-          "MinValue": null,
-          "MaxValue": null,
-          "DefaultValue": "Shitstain"
-        },
-		{
-          "Name": "IncludeDir0",
-          "DisplayName": "Title Screen",
-		  "Description": [
-			"Choose the Title Screen you would like."
-		  ],
-          "Type": "buttnum1",
-          "MinValue": null,
-          "MaxValue": null,
-          "DefaultValue": "Shitstain and Pipebomb"
-        },
-		{
-          "Name": "IncludeDir2",
-          "DisplayName": "Title Logo",
-		  "Description": [
-			"Choose the Title Logo you would like."
-		  ],
-          "Type": "buttnum2",
-          "MinValue": null,
-          "MaxValue": null,
-          "DefaultValue": ""
+            "Name": "Main",
+            "DisplayName": "Options",
+            "Elements": [
+                {
+                    "Name": "IncludeDir1",
+                    "DisplayName": "Character",
+                    "Description": [
+                        "Choose the Character you would like."
+                    ],
+                    "Type": "buttnum",
+                    "MinValue": null,
+                    "MaxValue": null,
+                    "DefaultValue": "Shitstain"
+                },
+                {
+                    "Name": "IncludeDir3",
+                    "DisplayName": "Character (Movie)",
+                    "Description": [
+                        "Choose the Character you would like for the Movie DLC."
+                    ],
+                    "Type": "buttnum3",
+                    "MinValue": null,
+                    "MaxValue": null,
+                    "DefaultValue": "MovieShitstain"
+                },
+                {
+                    "Name": "IncludeDir0",
+                    "DisplayName": "Title Screen",
+                    "Description": [
+                        "Choose the Title Screen you would like."
+                    ],
+                    "Type": "buttnum1",
+                    "MinValue": null,
+                    "MaxValue": null,
+                    "DefaultValue": "Shitstain and Pipebomb"
+                },
+                {
+                    "Name": "IncludeDir2",
+                    "DisplayName": "Title Logo",
+                    "Description": [
+                        "Choose the Title Logo you would like."
+                    ],
+                    "Type": "buttnum2",
+                    "MinValue": null,
+                    "MaxValue": null,
+                    "DefaultValue": ""
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "Enums": {
-	  "buttnum": [
-      {
-        "DisplayName": "Shitstain",
-        "Value": "Shitstain",
-        "Description":[
-          "Shitstain replaces Shadow ingame."
-        ]
-      },
-	  {
-        "DisplayName": "Pipebomb",
-        "Value": "Pipebomb",
-        "Description":[
-          "Pipebomb replaces Shadow ingame."
-        ]
-      },
-	  {
-        "DisplayName": "None",
-        "Value": "",
-        "Description":[
-          "Don't replace Shadow."
-        ]
-      }
-	 ],
-    "buttnum1": [
-      {
-        "DisplayName": "Shitstain and Pipebomb",
-        "Value": "Shitstain and Pipebomb",
-        "Description":[
-          "Title screen with just Shitstain and Pipebomb."
-        ]
-      },
-      {
-        "DisplayName": "Shitstain and Pipebomb alt",
-        "Value": "Shitstain and Pipebomb alt",
-        "Description":[
-          "Title screen with just Shitstain and Pipebomb, but they're on the back platforms, instead of being on the front platform."
-        ]
-      },
-      {
-        "DisplayName": "Only Shitstain",
-        "Value": "Only Shitstain",
-        "Description":[
-          "Title screen with just Shitstain."
-        ]
-      },
-      {
-        "DisplayName": "Only Pipebomb",
-        "Value": "Only Pipebomb",
-        "Description":[
-          "Title screen with just Pipebomb."
-        ]
-      },
-      {
-        "DisplayName": "Shitstain replace Shadow",
-        "Value": "Shitstain replace Shadow",
-        "Description":[
-          "Title screen with Shitstain in the place of Shadow."
-        ]
-      },
-      {
-        "DisplayName": "Pipebomb replace Shadow",
-        "Value": "Pipebomb replace Shadow",
-        "Description":[
-          "Title screen with Pipebomb in the place of Shadow."
-        ]
-      },
-      {
-        "DisplayName": "Old",
-        "Value": "Old",
-        "Description":[
-          "Old title screen I made. Has Shitstain in the place of Shadow, and Pipebomb in the place of Sonic, and Classic Sonic is still there."
-        ]
-      },
-	  {
-        "DisplayName": "Original",
-        "Value": "",
-        "Description":[
-          "Don't change the title screen."
-        ]
-      }
     ],
-	"buttnum2": [
-      {
-        "DisplayName": "New Title",
-        "Value": "Title",
-        "Description":[
-          "Shitstain X Pipebomb Generations, with green and purple colours."
+    "Enums": {
+        "buttnum": [
+            {
+                "DisplayName": "Shitstain",
+                "Value": "Shitstain",
+                "Description": [
+                    "Shitstain replaces Shadow ingame."
+                ]
+            },
+            {
+                "DisplayName": "Pipebomb",
+                "Value": "Pipebomb",
+                "Description": [
+                    "Pipebomb replaces Shadow ingame."
+                ]
+            },
+            {
+                "DisplayName": "None",
+                "Value": "",
+                "Description": [
+                    "Don't replace Shadow."
+                ]
+            }
+        ],
+        "buttnum1": [
+            {
+                "DisplayName": "Shitstain and Pipebomb",
+                "Value": "Shitstain and Pipebomb",
+                "Description": [
+                    "Title screen with just Shitstain and Pipebomb."
+                ]
+            },
+            {
+                "DisplayName": "Shitstain and Pipebomb alt",
+                "Value": "Shitstain and Pipebomb alt",
+                "Description": [
+                    "Title screen with just Shitstain and Pipebomb, but they're on the back platforms, instead of being on the front platform."
+                ]
+            },
+            {
+                "DisplayName": "Only Shitstain",
+                "Value": "Only Shitstain",
+                "Description": [
+                    "Title screen with just Shitstain."
+                ]
+            },
+            {
+                "DisplayName": "Only Pipebomb",
+                "Value": "Only Pipebomb",
+                "Description": [
+                    "Title screen with just Pipebomb."
+                ]
+            },
+            {
+                "DisplayName": "Shitstain replace Shadow",
+                "Value": "Shitstain replace Shadow",
+                "Description": [
+                    "Title screen with Shitstain in the place of Shadow."
+                ]
+            },
+            {
+                "DisplayName": "Pipebomb replace Shadow",
+                "Value": "Pipebomb replace Shadow",
+                "Description": [
+                    "Title screen with Pipebomb in the place of Shadow."
+                ]
+            },
+            {
+                "DisplayName": "Old",
+                "Value": "Old",
+                "Description": [
+                    "Old title screen I made. Has Shitstain in the place of Shadow, and Pipebomb in the place of Sonic, and Classic Sonic is still there."
+                ]
+            },
+            {
+                "DisplayName": "Original",
+                "Value": "",
+                "Description": [
+                    "Don't change the title screen."
+                ]
+            }
+        ],
+        "buttnum2": [
+            {
+                "DisplayName": "New Title",
+                "Value": "Title",
+                "Description": [
+                    "Shitstain X Pipebomb Generations, with green and purple colours."
+                ]
+            },
+            {
+                "DisplayName": "New Title (Original Colours)",
+                "Value": "Title Original Colours",
+                "Description": [
+                    "Shitstain X Pipebomb Generations, with the original title's colours."
+                ]
+            },
+            {
+                "DisplayName": "Original",
+                "Value": "",
+                "Description": [
+                    "Don't replace the title."
+                ]
+            }
+        ],
+        "buttnum3": [
+            {
+                "DisplayName": "Shitstain",
+                "Value": "MovieShitstain",
+                "Description": [
+                    "Shitstain replaces Movie Shadow ingame."
+                ]
+            },
+            {
+                "DisplayName": "Pipebomb",
+                "Value": "MoviePipebomb",
+                "Description": [
+                    "Pipebomb replaces Movie Shadow ingame."
+                ]
+            },
+            {
+                "DisplayName": "None",
+                "Value": "",
+                "Description": [
+                    "Don't replace Movie Shadow."
+                ]
+            }
         ]
-      },
-	  {
-        "DisplayName": "New Title (Original Colours)",
-        "Value": "Title Original Colours",
-        "Description":[
-          "Shitstain X Pipebomb Generations, with the original title's colours."
-        ]
-      },
-	  {
-        "DisplayName": "Original",
-        "Value": "",
-        "Description":[
-          "Don't replace the title."
-        ]
-      }
-	 ]
-  },
-  "IniFile": "mod.ini"
+    },
+    "IniFile": "mod.ini"
 }
